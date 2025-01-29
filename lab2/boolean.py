@@ -5,6 +5,7 @@ print(10<9) #false
 a = 300
 b = 44
 
+#bool with true/false statements
 if b>a:
     print("b greater than a")
 else:
@@ -20,6 +21,8 @@ print(bool(x))
 print(bool(y))
 
 bool('abc')
+
+# bool with function
 
 def myFunction() :
   return True

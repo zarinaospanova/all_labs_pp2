@@ -9,9 +9,9 @@ COLOR_WHITE = (255,255,255)
 screen = pygame.display.set_mode((width,height))
 pygame.display.set_caption('Clock Mickey')
 
-mickeys_body = pygame.image.load('images/clock.png').convert_alpha()
-mickeys_right_hand = pygame.image.load('images/rightarm.png').convert_alpha()
-mickeys_left_hand = pygame.image.load('images/leftarm.png').convert_alpha()
+mickeys_body = pygame.image.load('labs/lab7/watch_mickey/images/clock.png').convert_alpha()
+mickeys_right_hand = pygame.image.load('labs/lab7/watch_mickey/images/rightarm.png').convert_alpha()
+mickeys_left_hand = pygame.image.load('labs/lab7/watch_mickey/images/leftarm.png').convert_alpha()
 
 mickeys_body_rect = mickeys_body.get_rect(center = (width//2,height//2))
 # mickey_icon = pygame.image.load('images/mickeyclock.jpeg')

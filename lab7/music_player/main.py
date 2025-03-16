@@ -7,7 +7,12 @@ height = 1000
 color_white = (255,255,255)
 screen = pygame.display.set_mode((width,height))
 
-songs = ['daylight.mp3','kobelek.mp3','kuiim.mp3','mahabbatym.mp3','the_sweater_Weather.mp3','young_and_beautiful']
+songs = ['labs/lab7/music_player/daylight.mp3',
+         'labs/lab7/music_player/kobelek.mp3',
+         'labs/lab7/music_player/kuiim.mp3',
+         'labs/lab7/music_player/mahabbatym.mp3',
+         'labs/lab7/music_player/the_sweater_Weather.mp3',
+         'labs/lab7/music_player/young_and_beautiful']
 
 # function for next song 
 def next_song():
